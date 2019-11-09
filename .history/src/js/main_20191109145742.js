@@ -17,7 +17,7 @@ requirejs.config({
   paths:
     //injector:mainReleasePaths
     {
-      knockout: "libs/knockout/knockout-3.5.0.debug",
+      knockout: "libs/knockou/knockout-3.5.0.debug",
       jquery: "libs/jquery/jquery-3.4.1",
       "jqueryui-amd": "libs/jquery/jqueryui-amd-1.12.1",
       promise: "libs/es6-promise/es6-promise",
@@ -32,7 +32,7 @@ requirejs.config({
       proj4: "libs/proj4js/dist/proj4-src",
       css: "libs/require-css/css.min",
       touchr: "libs/touchr/touchr",
-      "rm-emoji-picker": "libs/rm-emoji-picker/EmojiPicker"
+      "rm-emoji-picker": "libs/rm-emoji-picker/dist/EmojiPicker"
     }
   //endinjector
 });

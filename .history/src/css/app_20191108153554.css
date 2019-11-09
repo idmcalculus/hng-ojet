@@ -240,7 +240,6 @@ body {
 #maincontent {
     /*margin-left: 200px;*/
     overflow: hidden;
-    bottom: 0
 }
 
 #maincontent.smactive {

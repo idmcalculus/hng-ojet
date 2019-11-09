@@ -225,17 +225,17 @@
     },
 
     "rm-emoji-picker": {
-      "cdn": "rm-emoji-picker",
+      "cdn": "3rdparty",
       "cwd": "node_modules/rm-emoji-picker/dist",
       "debug": {
       "src": ["EmojiPicker.js", "emojipicker.css", "emojipicker.css.map"],
-      "path": "libs/rm-emoji-picker/EmojiPicker",
-      "cdnPath": "rm-emoji-picker/EmojiPicker"
+      "path": "libs/rm-emoji-picker/dist/EmojiPicker.js",
+      "cdnPath": "https://cdn.jsdelivr.net/npm/rm-emoji-picker@0.4.0/dist/EmojiPicker.min.js"
       },
       "release": {
       "src": ["EmojiPicker.js", "emojipicker.css", "emojipicker.css.map"],
-      "path": "libs/rm-emoji-picker/EmojiPicker",
-      "cdnPath": "rm-emoji-picker/EmojiPicker"
+      "path": "libs/rm-emoji-picker/dist/EmojiPicker.js",
+      "cdnPath": "https://cdn.jsdelivr.net/npm/rm-emoji-picker@0.4.0/dist/EmojiPicker.min.js"
       }
     }
   }

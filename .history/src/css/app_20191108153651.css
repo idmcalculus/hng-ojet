@@ -240,6 +240,7 @@ body {
 #maincontent {
     /*margin-left: 200px;*/
     overflow: hidden;
+    position: absolute;
     bottom: 0
 }
 

@@ -32,7 +32,7 @@ requirejs.config({
       proj4: "libs/proj4js/dist/proj4-src",
       css: "libs/require-css/css.min",
       touchr: "libs/touchr/touchr",
-      "rm-emoji-picker": "libs/rm-emoji-picker/EmojiPicker"
+      "rm-emoji-picker": "libs/rm-emoji-picker/dist/EmojiPicker.js"
     }
   //endinjector
 });

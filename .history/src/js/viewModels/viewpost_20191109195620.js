@@ -1,4 +1,3 @@
-import EmojiPicker from "rm-emoji-picker";
 define([
   "knockout",
   "jquery",
@@ -7,6 +6,7 @@ define([
   "ojs/ojarraydataprovider",
   "ojs/ojpagingdataproviderview",
   "ojs/ojhtmlutils",
+  "rm-emoji-picker",
   "ojs/ojbinddom",
   "ojs/ojlistview",
   "ojs/ojdialog",
@@ -15,7 +15,7 @@ define([
   "ojs/ojmessages",
   "ojs/ojpagingcontrol",
   "ojs/ojmodel"
-], function(ko, $, ClassicEditor, api, ArrayDataProvider, Paging, HtmlUtils) {
+], function(ko, $, ClassicEditor, api, ArrayDataProvider, Paging, HtmlUtils, EmojiPicker) {
   function viewPost(params) {
     let self = this;
 
@@ -170,14 +170,14 @@ define([
         toolbar: ["bold", "link", "underline"]
       }).then(editor => self.editor(editor));
     };
+
+    //const picker = EmojiPicker;
+    console.log(typeof(new EmojiPicker));
+    //const emojiButton = document.getElementById('emoji-picker');
+    //const emojiContainer = document.getElementById('emojis');
+    //const editable  = document.getElementById('my-input');
     
-    const picker = new EmojiPicker();
-    console.log(typeof(new EmojiPicker()));
-    const emojiButton = document.getElementById('emoji-picker');
-    const emojiContainer = document.getElementById('emojis');
-    const editable  = document.getElementById('my-input');
-    
-    picker.listenOn(emojiButton, emojiContainer);
+    //picker.listenOn(emojiButton, emojiContainer);
 
 
     //Emoji controllers
